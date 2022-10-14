@@ -1,0 +1,228 @@
+*{
+    /*border: 2px solid black;*/
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+
+/**Header styling**/
+
+
+header{
+    /*padding: 20px;*/
+    /*border: 1px solid rgba(128, 128, 128, 0.808);*/
+    background-color: rgba(198, 199, 198, 0.112);
+    height: 80vh;
+}
+#logo{
+    border: 0.1px solid rgba(128, 128, 128, 0.808);
+    border-top: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    padding: 29px 10px 15px 80px;
+    font-weight: 100;
+    font-size: 14px;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 0.1px solid rgba(128, 128, 128, 0.808);
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    
+}
+.navrightside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup{
+    border: 0.5px solid rgba(128, 128, 128, 0.808);
+    border-right: 0px;
+    border-bottom: 0px;
+    border-top: 0px;
+    padding: 17px 80px 5px 15px;
+}
+
+.navigation{
+    margin-top: 25px;
+    margin-right: 40px;
+}
+
+.navigation a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: black;
+    font-size: 14px;
+}
+.signup{
+  padding-top: 22px;
+}
+
+.signup button{
+    background-color: rgb(38, 66, 38);
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 2px;
+}
+.signup button:hover{
+    cursor: pointer;
+    background-color: rgba(35, 90, 76, 0.696);
+}
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.textone{
+font-size: 50px;
+margin-bottom: 7px;
+line-height: 1.2;
+}
+
+.content{
+    /**margin-left: 650px;**/
+   width: 50%;
+    /**margin-right: 100px;**/
+}
+.innercontent{
+    display: flex;
+    padding-top: 20px;
+   
+}
+.getstarted{
+    background-color: rgb(38, 66, 38) ;
+    border: none;
+    padding: 10px;
+    color: white;
+}
+
+.getstarted button:hover{
+    cursor: pointer;
+    background-color: rgba(35, 90, 76, 0.696);
+}
+.newplant{
+    font-size: 20px;
+    padding-left: 7px;
+}
+.imagcontainer{
+    border: 0x solid black;
+    border-left: 0px;
+    border-right: 0px;
+    width:30%;
+    height: 60vh;
+}
+.imagcontainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.footercontent{
+    display: flex;
+    height: 30px;
+    margin-top:50px;
+}
+
+.amazoncontainer{
+    width: 30%;
+    height: 6vh;
+}
+
+.amazoncontainer img{
+   width: 100%;
+   height: 6vh;
+   object-fit: cover;
+  position: relative; right: 40px;
+}
+
+.herocontainer{
+    width: 30%;
+    height: 6vh;
+}
+
+.herocontainer img{
+    width: 70%;
+    height: 3vh;
+    object-fit: cover;
+   position: relative; right: 30px;
+   padding-top: 8px;
+}
+
+/*MAIN BODY STYLING*/
+
+.maintext{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 25px;
+    font-size: 25px;
+}
+
+/*footer styling*/
+
+
+
+.mainfooter{
+display: flex;
+gap: 15px;
+margin-left: 380px;
+padding-bottom: 20px;
+}
+
+.firstbox{
+   /* border: 2px solid black;*/
+    width: 14%;
+    height: 20vh;
+    background-color: rgba(198, 199, 198, 0.112);
+    padding: 13px 30px 14px 15px;
+}
+
+.firstbox h5{
+font-size: 15px;
+line-height: 2;
+padding-top: 10px;
+}
+
+.firstbox p{
+    font-size: 10px;
+}
+
+.secondbox{
+   /* border: 2px solid black;*/
+    width: 14%;
+    height:20vh;
+    background-color: rgb(38, 66, 38);
+    color: white;
+    padding: 15px 30px 14px 15px;
+}
+.secondbox h5{
+    font-size: 15px;
+    line-height: 2;
+    padding-top: 10px;
+}
+
+.secondbox p{
+    font-size: 10px;
+}
+
+.thirdbox{
+   /* border: 2px solid black;*/
+    width: 14%;
+    height: 20vh;
+    background-color: rgba(198, 199, 198, 0.112);
+    padding: 15px 30px 14px 15px;
+}
+
+
+.thirdbox h5{
+    font-size: 15px;
+    line-height: 2;
+    padding-top: 15px; 
+}
+
+.thirdbox p{
+    font-size: 10px;
+}
+
