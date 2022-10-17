@@ -6,6 +6,7 @@ header{
     background-color: #fcde67;
     height: 650px;
     max-width: 1440px;
+    background-image: url(/AssignmentWeek3/Assignment\ images/bg-hero-desktop.svg);
 }
 .headcontent{
 text-align: center;
