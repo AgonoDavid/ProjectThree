@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    height: 400px;
+    
+    background-image: url(/AssignmentWeek3-NO.2/images/gradienta-n2XqPm7Bqhk-unsplash.jpg);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 25px 0px 25px;
+}
+main{
+    background-image: url(/AssignmentWeek3-NO.2/images/pexels-gradienta-6985122.jpg);
+}
+.content{
+    display: flex;
+    gap: 80px;
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.content p{
+    color: rgba(255, 255, 255, 0.795);
+}
+.search{
+    width: 500px;
+    height: 50px;
+    border: none;
+    margin-left: 390px;
+    margin-top: 120px;
+    background-color: rgba(20, 20, 20, 0.208);
+    border-radius: 30px;
+    padding-left: 15px;
+    color: rgba(241, 239, 239, 0.717);
+}
+.buttons{
+    padding-right: 40px;
+}
+.buttons .button1:hover{
+    background-color: rgba(0, 0, 255, 0.836);
+}
+.buttons .button2:hover{
+    background-color: rgb(174, 35, 35);
+}
+.button1{
+   background-color: rgba(54, 54, 172, 0.941);
+   color: white;
+   border: none;
+   padding: 5px 17px 5px 17px;
+   margin-right: 10px;
+   border-radius: 5px;
+}
+.button2{
+    background-color: rgba(151, 41, 41, 0.772);
+    color: white;
+    border: 1px solid black;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    border: none;
+}
+.search input{
+ border: none;
+ background-color: rgba(20, 20, 20, 0);
+ padding-top: 16px;
+ outline: none;
+}
+/*Main body styling*/
+
+.car{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 0px;
+}
+.car_collections{
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+}
+.imagecontainer1{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.imagecontainer1 img{
+    width: 300px;
+    height:200px;
+}
+.imagecontainer2{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.imagecontainer2 img{
+    width: 300px;
+    height:200px;
+}
+.imagecontainer3{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.imagecontainer3 img{
+    width: 300px;
+    height:200px;
+}
+.imagecontainer4{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+.imagecontainer4 img{
+    width: 300px;
+    height:200px;
+}
+/*Second section styling*/
+.Movies{
+    margin-top: 60px;
+}
+.latest_movies{
+    display: flex;
+    gap: 60px;
+    padding: 10px 5px 10px 140px;
+}
+.firstimagecontainer{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.firstimagecontainer img{
+    width: 200px;
+    height: 300px;
+}
+.secondimagecontainer{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.secondimagecontainer img{
+    width: 200px;
+    height: 300px;
+}
+.thirdimagecontainer{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.thirdimagecontainer img{
+    width: 200px;
+    height: 300px;
+}
+.fourthimagecontainer{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+.fourthimagecontainer img{
+    width: 200px;
+    height: 300px;
+}
+/*last section*/
+.album{
+    margin-top: 90px;
+}
+.bestalbums{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.album1{
+    width: 320px;
+    height: 300px;
+}
+.album1 img{
+    width: 300px;
+    height:300px;
+}
+.album2{
+    width: 300px;
+    height: 300px;
+}
+.album2 img{
+    width: 300px;
+    height:300px;
+}
+.album3{
+    width: 300px;
+    height: 300px;
+}
+.album3 img{
+    width: 300px;
+    height:300px;
+}
+.album4{
+    width: 300px;
+    height: 300px;
+}
+.album4 img{
+    width: 300px;
+    height:300px;
+}
