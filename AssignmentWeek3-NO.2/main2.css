@@ -22,6 +22,17 @@ main{
     padding-top: 15px;
     padding-left: 30px;
 }
+.content button{
+    background-color: rgba(255, 0, 0, 0);
+    border: none;
+    color: white;
+}
+.content button a{
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+}
 .content p{
     color: rgba(255, 255, 255, 0.795);
 }
@@ -74,11 +85,18 @@ main{
     padding-bottom: 40px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px 0px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.car_{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.514);   
 }
 .car_collections{
     display: flex;
     gap: 10px;
     padding: 13px;
+    color: white;
 }
 .imagecontainer1{
     width: 300px;
@@ -108,22 +126,30 @@ main{
     height:200px;
 }
 .imagecontainer4{
-    width: 300px;
+    width: 200px;
     height: 200px;
     object-fit: cover;
 }
 .imagecontainer4 img{
-    width: 300px;
+    width: 250px;
     height:200px;
 }
 /*Second section styling*/
 .Movies{
     margin-top: 60px;
+    box-shadow: 0px 0px 8px 0px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.movies_{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.514);   
 }
 .latest_movies{
     display: flex;
     gap: 60px;
-    padding: 10px 5px 10px 140px;
+    padding: 20px 5px 40px 140px;
+    color: white;
 }
 .firstimagecontainer{
     width: 200px;
@@ -164,18 +190,28 @@ main{
 /*last section*/
 .album{
     margin-top: 90px;
+    box-shadow: 0px 0px 8px 0px;
+    padding-bottom: 80px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.album_{
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.514);   
 }
 .bestalbums{
     display: flex;
     gap: 10px;
     margin-top: 20px;
+    color: white;
+    padding-left: 10px;
 }
 .album1{
-    width: 320px;
+    width: 280px;
     height: 300px;
 }
 .album1 img{
-    width: 300px;
+    width: 280px;
     height:300px;
 }
 .album2{
@@ -199,6 +235,6 @@ main{
     height: 300px;
 }
 .album4 img{
-    width: 300px;
+    width: 260px;
     height:300px;
 }
