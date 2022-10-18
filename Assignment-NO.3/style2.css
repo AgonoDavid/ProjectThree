@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: linear-gradient(to top left,#648880, #293f50);
+    height: 340px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 400px 0px 400px;
+    padding-top: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.mainbody :nth-of-type(2){
+   text-align: right;
+   flex-direction: row-reverse
+   ;
+}
+.textarea{
+    padding-left: 480px;
+    padding-top: 100px;
+}
+.textarea input{
+    padding: 5px 80px 5px 80px ;
+    border-radius: 20px;
+}
+
+.box1{
+    border: 2px solid black;
+    height: 290px;
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+    margin: 30px 200px 20px 200px;
+    padding: 30px 45px 0px 45px;
+    background-color: #f4eeee;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px;
+}
+.box1_left{
+    line-height: 1.5;
+    color: #2b6777;
+}
+.box1_left h3{
+    font-size: 30px;
+}
+.box1_left p{
+    width: 530px;
+}
+.container1{
+    height: 250px;
+    width: 270px;
+    border-radius: 10px;
+}
+.container1 img{
+    height: 250px;
+    width: 270px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box2{
+    border: 2px solid black;
+    height: 290px;
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+    margin: 30px 200px 20px 200px;
+    padding: 30px 45px 0px 45px;
+    background-color: #f4eeee;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px;
+}
+.container2{
+    height: 250px;
+    width: 220px;
+    border-radius: 10px;
+}
+.container2 img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box2_left{
+    line-height: 1.5;
+    color: #2b6777;
+}
+.box2_left h3{
+    font-size: 30px;
+}
+.box2_left p{
+    width: 530px;
+}
+.box3{
+    border: 2px solid black;
+    height: 290px;
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+    margin: 30px 200px 20px 200px;
+    padding: 30px 45px 0px 45px;
+    background-color: #f4eeee;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px 0px;
+}
+.container3{
+    height: 250px;
+    width: 220px;
+    border-radius: 10px;
+}
+.container3 img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box3_left{
+    line-height: 1.5;
+    color: #2b6777;
+}
+.box3_left h3{
+    font-size: 30px;
+}
+.box3_left p{
+    width: 530px;
+}
