@@ -15,6 +15,9 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
+#main{
+    background-color: #344d47b3;
+}
 .mainbody :nth-of-type(2){
    text-align: right;
    flex-direction: row-reverse
@@ -28,14 +31,18 @@ nav{
     padding: 5px 80px 5px 80px ;
     border-radius: 20px;
 }
-
+.mainbody{
+    padding-top: 39px;
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 10px 0px;
+}
 .box1{
     border: 2px solid black;
     height: 290px;
     display: flex;
     gap: 2px;
     justify-content: space-between;
-    margin: 30px 200px 20px 200px;
+    margin: 0px 200px 20px 200px;
     padding: 30px 45px 0px 45px;
     background-color: #f4eeee;
     border: none;
@@ -44,7 +51,7 @@ nav{
 }
 .box1_left{
     line-height: 1.5;
-    color: #2b6777;
+    color: rgba(31, 72, 31, 0.783);
 }
 .box1_left h3{
     font-size: 30px;
@@ -71,7 +78,7 @@ nav{
     justify-content: space-between;
     margin: 30px 200px 20px 200px;
     padding: 30px 45px 0px 45px;
-    background-color: #f4eeee;
+    background-color: #312f2f;
     border: none;
     border-radius: 5px;
     box-shadow: 0px 0px 8px 0px;
@@ -89,7 +96,7 @@ nav{
 }
 .box2_left{
     line-height: 1.5;
-    color: #2b6777;
+    color: rgb(214, 214, 65);
 }
 .box2_left h3{
     font-size: 30px;
@@ -123,7 +130,7 @@ nav{
 }
 .box3_left{
     line-height: 1.5;
-    color: #2b6777;
+    color: rgba(31, 72, 31, 0.783);
 }
 .box3_left h3{
     font-size: 30px;
