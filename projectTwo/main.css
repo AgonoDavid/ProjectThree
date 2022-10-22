@@ -6,7 +6,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 15px;
+    margin: 10px;
 }
 .menu_bar{
     width: 100%;
@@ -31,13 +31,16 @@ nav{
 }
 .dropdown_menu{
     display: none;
-    width:135px;
+    width: 180px;
     background-color: white;
     box-shadow: 0px 0px 10px 0px;
     border: none;
     border-radius: 5px;
     font-size: 12px;
-    padding-right: 20px;
+}
+.dropdown_menu ul li img{
+    width: 20px;
+    height: 20px;
 }
 .menu_bar ul li:hover .dropdown_menu{
     display: block;
@@ -76,11 +79,10 @@ nav{
     
 }
 .containerleft h1{
-    font-size: 80px;
-    padding-bottom:20px;
+    font-size: 78px;
 }
 .containerleft p{
-    font-size: 18px;
+    font-size: 15px;
     width: 370px;
     color: rgba(0, 0, 0, 0.674);
 }
@@ -96,13 +98,13 @@ nav{
 }
 
 .imagecontainerright img{
-    width: 440px;
+    width: 570px;
     padding-left:50px;
     height: 540px;
     padding-right: 100px;
 }
 .icons img{
-   padding-top: 50px;
+   padding-top: 40px;
 }
 .img2{
     padding-left: 25px;
