@@ -1,4 +1,114 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+.menu_bar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0.5%;
+}
+.menu_bar h1{
+    font-size: 50px;
+}
+.menu_bar ul{
+    list-style-type: none;
+    display: flex;
+}
+.menu_bar ul li{
+    padding: 10px 30px;
+    position: relative;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    color: black;
+}
+.dropdown_menu{
+    display: none;
+    width:135px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 0px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    padding-right: 20px;
+}
+.menu_bar ul li:hover .dropdown_menu{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+}
+.dropdown_menu ul{
+    display: block;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+.btn_1 button{
+  background-color: white;
+  padding: 8px 30px 8px 30px;
+  border: none;
+}
+.btn_2 button{
+    background-color: white;
+    padding: 8px 30px 8px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+/*Main body styling*/
+.maincontainer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+.containerleft{
+    padding-top: 110px;
+    
+}
+.containerleft h1{
+    font-size: 80px;
+    padding-bottom:20px;
+}
+.containerleft p{
+    font-size: 18px;
+    width: 370px;
+    color: rgba(0, 0, 0, 0.674);
+}
+.containerleft button{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+}
+.imagecontainerright{
+    object-fit: cover;
+}
+
+.imagecontainerright img{
+    width: 440px;
+    padding-left:50px;
+    height: 540px;
+    padding-right: 100px;
+}
+.icons img{
+   padding-top: 50px;
+}
+.img2{
+    padding-left: 25px;
+}
+.img3{
+    padding-left: 25px;
+}
+.img4{
+    padding-left: 25px;
 }
